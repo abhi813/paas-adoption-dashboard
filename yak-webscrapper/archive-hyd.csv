@@ -1,0 +1,17 @@
+prod_accounting_ekl,gal-yak
+prod_cart_cartversionarch,cart-yak-versioned-archive
+prod_checkout_archcheckout,prod-checkoutsecondaryhbase
+prod_connekt_push,fk-connekt-hbase
+prod_cx_log_persistence,prod-yak-setu-hbase
+prod_e2eplanner_graphdb,ekl-planner-network-cluster
+prod_entity_manager_em_ns_4,entity-manager
+prod_entity_manager_em_ns_9,entity-manager
+prod_fintech_los,fintech-los-yak-prod
+prod_icap_chat,fk-argos
+prod_id_nightswatch,prod-nightswatch-yak
+prod_id_scheduler,prod-id-scheduler-yak
+prod_m3ingestion_neo,m3-ingestion-datastore
+prod_m3ingestion_pla,m3-ingestion-pla-datastor
+prod_merlin_hbase,
+prod_usl_flipkart,gap-hbase
+prod_usl_reco,gap-hbase

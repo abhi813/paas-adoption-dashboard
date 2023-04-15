@@ -1,0 +1,743 @@
+{
+    "m3-discjockey": [
+        {
+            "appId": "dj-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-astradev-2": [
+        {
+            "appId": "astra-store",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-m3pla-datastore": [
+        {
+            "appId": "m3-pla-aerospike-cache",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "reco-relevance-hawk": [
+        {
+            "appId": "prod-hawk-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "shopping-preference-everest-search": [
+        {
+            "appId": "shopping-preference",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "uar-n200m-incentive": [
+        {
+            "appId": "alchemist-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "uar-ace-reporting-polygon": [
+        {
+            "appId": "reporting-aerospike-prod",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "uar-session-ccs": [
+        {
+            "appId": "central-caching-service-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "cds-jarvis": [
+        {
+            "appId": "prod-cds-jarvis-nlp-orch",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-reco-griffin-rols-crm-cache": [
+        {
+            "appId": "griffin-cache",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "uar-n200m-ugc-rnr": [
+        {
+            "appId": "ugc-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-reco-griffin-rols-l2-cache": [
+        {
+            "appId": "reco-rols-cache",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-connekt-idempotency-store": [
+        {
+            "appId": "fk-connekt-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-m3contentfarm-mapping-svc-2": [
+        {
+            "appId": "fk-m3-cs-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-search-ranking-session-store": [
+        {
+            "appId": "sxp-store",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "fdp-fni-sonic": [
+        {
+            "appId": "prod-fdp-sonic",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "ace-engg-retail-vrp": [
+        {
+            "appId": "prod-recommerce-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-search-ranking-debug": [
+        {
+            "appId": "sherlock-axon",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {
+                "aerospike_namespace_hwm_breached": {
+                    "aggregator": "SUM",
+                    "queryMode": "ABSOLUTE",
+                    "notify": "SCORPIUS_ONLY",
+                    "comparator": "GREATER_THAN",
+                    "critical": 1,
+                    "warning": 1,
+                    "enabled": false
+                }
+            }
+        }
+    ],
+    "scorpius-template-hybrid": [
+        {
+            "appId": "prod-scorpius",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "uar-ace-legolas": [
+        {
+            "appId": "legolas-aerospike-prod",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-reco-relevance-2": [
+        {
+            "appId": "prod-reco-phoenix-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "morpheus-m3-content-farm": [
+        {
+            "appId": "cf.cp.infra.aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {
+                "aerospike_namespace_hwm_breached": {
+                    "aggregator": "SUM",
+                    "queryMode": "ABSOLUTE",
+                    "notify": "SCORPIUS_ONLY",
+                    "comparator": "GREATER_THAN",
+                    "critical": 1,
+                    "warning": 1,
+                    "enabled": false
+                }
+            }
+        }
+    ],
+    "uar-group-buying": [
+        {
+            "appId": "gb-ups-cache-prod",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-login-service-2": [
+        {
+            "appId": "prod-login-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "uie-profiling": [
+        {
+            "appId": "prod-pp-profile-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-connekt-fcs-cohort": [
+        {
+            "appId": "fk-connekt-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "tns-featurestore-2": [
+        {
+            "appId": "prod-featurestore-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "fsg-shield": [
+        {
+            "appId": "raw-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-reco-griffin-rols-l1-cache": [
+        {
+            "appId": "reco-griffin-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-search-ranking": [
+        {
+            "appId": "sherlock-axon",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-m3pla-datastore-2": [
+        {
+            "appId": "m3-pla-aerospike-cache",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "search-autosuggest-2": [
+        {
+            "appId": "autosuggest",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-opus-product-cluster-2": [
+        {
+            "appId": "fk-m3-varys",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "psd-camera": [
+        {
+            "appId": "psd-camera",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-search-selection": [
+        {
+            "appId": "sherlock-hooper",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-reco-griffin-pagination-2": [
+        {
+            "appId": "griffin-cache",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-sso-service": [
+        {
+            "appId": "prod-sso-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "tns-featurestore": [
+        {
+            "appId": "prod-featurestore-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "uar-ace-m3-continuum": [
+        {
+            "appId": "prod-continuum-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-opus-user-cluster-2": [
+        {
+            "appId": "fk-m3-varys",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-search-autosuggest-inception": [
+        {
+            "appId": "autosuggest",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "in-mem-elb-backend-do-not-delete": [
+        {
+            "appId": "prod-scorpius",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-connekt-fcs": [
+        {
+            "appId": "fk-connekt-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "reco-relevance-inference": [
+        {
+            "appId": "reco.raven.inference",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "cfg-tns-graph": [
+        {
+            "appId": "prod-panorama-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-m3contentfarm-irs-rcs": [
+        {
+            "appId": "fk-m3-cf-irs-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "uie-personalisation": [
+        {
+            "appId": "prod-user-insights",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "fsg-cldiscover": [
+        {
+            "appId": "ekl-geo-cassandra",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "uar-videos-feature-store": [
+        {
+            "appId": "prod-videos-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "prod-user-insights-aerospike-uie": [
+        {
+            "appId": "prod-user-insights-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "scorpius-template-in-mem": [
+        {
+            "appId": "prod-scorpius",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "fsg-cl-serviceability": [
+        {
+            "appId": "ekl-cl-serviceability",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "reco-relevance-falcon": [
+        {
+            "appId": "prod-falcon-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "uar-mapi-everest-grocery": [
+        {
+            "appId": "grocery_decision_engine",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "fpg-insuretech": [
+        {
+            "appId": "insuretech-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-connekt-ephemeral-store": [
+        {
+            "appId": "fk-connekt-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "uar-n200m-ugc-qna": [
+        {
+            "appId": "qna-service-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-m3contentfarm-irs-pis": [
+        {
+            "appId": "fk-m3-cf-irs-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-m3contentfarm-hulk": [
+        {
+            "appId": "fk-m3-cf-hulk-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "m3-audience-manager": [
+        {
+            "appId": "m3-aud-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-m3crm": [
+        {
+            "appId": "fk-m3-crm-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-user-service-2": [
+        {
+            "appId": "prod-user-aerospike",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "sxp-catalog-tokyocache": [
+        {
+            "appId": "cms-dt-tokyo-cache",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {}
+        }
+    ],
+    "scorpius-global": [
+        {
+            "appId": "prod-scorpius",
+            "contexts": [],
+            "metricDetails": {
+                "aerospike_namespace_memory_free_pct": {
+                    "aggregator": "MIN",
+                    "queryMode": "ABSOLUTE",
+                    "notify": "BOTH",
+                    "comparator": "LESS_THAN",
+                    "critical": 12,
+                    "warning": 22,
+                    "enabled": true
+                },
+                "aerospike_namespace_device_available_pct": {
+                    "aggregator": "MIN",
+                    "queryMode": "ABSOLUTE",
+                    "notify": "BOTH",
+                    "comparator": "LESS_THAN",
+                    "critical": 12,
+                    "warning": 22,
+                    "enabled": true
+                },
+                "aerospike_namespace_hwm_breached": {
+                    "aggregator": "SUM",
+                    "queryMode": "ABSOLUTE",
+                    "notify": "BOTH",
+                    "comparator": "GREATER_THAN",
+                    "critical": 1,
+                    "warning": 1,
+                    "enabled": true
+                },
+                "aerospike_namespace_stop_writes": {
+                    "aggregator": "SUM",
+                    "queryMode": "ABSOLUTE",
+                    "notify": "BOTH",
+                    "comparator": "GREATER_THAN",
+                    "critical": 1,
+                    "warning": 1,
+                    "enabled": true
+                },
+                "aerospike_namespace_client_write_error": {
+                    "aggregator": "SUM",
+                    "queryMode": "RATE",
+                    "notify": "BOTH",
+                    "comparator": "GREATER_THAN",
+                    "critical": 10,
+                    "warning": 1,
+                    "enabled": false
+                },
+                "aerospike_namespace_batch_sub_write_error": {
+                    "aggregator": "SUM",
+                    "queryMode": "RATE",
+                    "notify": "BOTH",
+                    "comparator": "GREATER_THAN",
+                    "critical": 10,
+                    "warning": 1,
+                    "enabled": false
+                },
+                "aerospike_xdr_lag": {
+                    "aggregator": "AVG",
+                    "queryMode": "ABSOLUTE",
+                    "notify": "BOTH",
+                    "comparator": "GREATER_THAN",
+                    "critical": 600,
+                    "warning": 300,
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "sxp-m3pla": [
+        {
+            "appId": "m3-pla-aerospike-cache",
+            "contexts": [
+                "PROD_CH_3",
+                "PROD_HYD_2"
+            ],
+            "metricDetails": {
+                "aerospike_namespace_hwm_breached": {
+                    "aggregator": "SUM",
+                    "queryMode": "ABSOLUTE",
+                    "notify": "SCORPIUS_ONLY",
+                    "comparator": "GREATER_THAN",
+                    "critical": 1,
+                    "warning": 1,
+                    "enabled": false
+                }
+            }
+        }
+    ]
+}
