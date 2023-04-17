@@ -10,5 +10,9 @@
 1. Sequel Pro
 2. IntelliJ Idea
 
+## Config Bucket
+Scorpius: scorpius-alerts-v2
+Yak: prod-id-yak-<CLUSTER-NAME>
 
+##
 TODO: LOT of Explaining 
